@@ -1,30 +1,30 @@
 {
 	"schemaVersion": 1,
-	"id": "example_mod",
+	"id": "ambient",
 	"version": "${version}",
-	"name": "Example mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Ambient",
+	"description": "Funny mod!",
 	"authors": [
-		"Me!"
+		"restonic4"
 	],
 	"contact": {
-		"homepage": "https://example.com/",
-		"sources": "https://github.com/OrnitheMC/ornithe-template-mod"
+		"homepage": "https://modrinth.com/project/ambient",
+		"sources": "https://github.com/restonic4/Ambient"
 	},
-	"license": "CC0-1.0",
-	"icon": "assets/example_mod/icon.png",
+	"license": "MIT",
+	"icon": "assets/ambient/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"init": [
-			"com.example.example_mod.ExampleMod"
+			"com.restonic4.ambient.Ambient"
 		]
 	},
 	"mixins": [
-		"example_mod.mixins.json"
+      "ambient.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.17.3",
-		"minecraft": "1.7.2",
+		"minecraft": "${minecraft_version}",
 		"osl-entrypoints": ">=0.4.0"
 	}
 }
