@@ -3,9 +3,12 @@
   "minVersion": "0.8",
   "package": "com.restonic4.ambient.mixin",
   "compatibilityLevel": "JAVA_8",
-  "mixins": [],
+  "mixins": [
+    "WorldMixin"
+  ],
   "client": [
-    "TitleScreenMixin"
+    "GameRendererMixin",
+    "BoatEntityMixin"
   ],
   "server": [],
   "injectors": {
